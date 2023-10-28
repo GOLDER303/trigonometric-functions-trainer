@@ -2,62 +2,30 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="107.99083mm"
+   height="63.615589mm"
+   viewBox="0 0 107.99083 63.615589"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="triangle3.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.1200123"
-     inkscape:cx="224.99753"
-     inkscape:cy="351.78185"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid611" />
-  </sodipodi:namedview>
   <defs
      id="defs2" />
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-24.32457,-40.000003)">
     <path
        id="rect391"
        style="fill:none;stroke:#000000;stop-color:#000000"
-       d="m 30.5,40.833618 101.57998,54.21536 H 30.5 Z"
-       sodipodi:nodetypes="cccc" />
+       d="m 30.5,40.833618 101.57998,54.21536 H 30.5 Z" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.568617,76.755624 c 13.180534,0.8916 17.687225,8.336565 18.437219,18.437217"
-       id="path613"
-       sodipodi:nodetypes="cc" />
+       id="path613" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 108.74409,82.936164 c -2.01311,2.775293 -3.53261,4.871134 -2.4221,11.692913"
-       id="path615"
-       sodipodi:nodetypes="cc" />
+       id="path615" />
     <circle
        style="fill:#000000;stroke:#000000;stroke-width:0.681062;stroke-dasharray:none;stop-color:#000000"
        id="path1223"
@@ -70,7 +38,6 @@
        x="23.859486"
        y="69.924828"
        id="text2005"><tspan
-         sodipodi:role="line"
          id="tspan2003"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.264583"
          x="23.859486"
@@ -81,7 +48,6 @@
        x="77.126953"
        y="63.761478"
        id="text2005-2"><tspan
-         sodipodi:role="line"
          id="tspan2003-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.264583"
          x="77.126953"
@@ -92,7 +58,6 @@
        x="72.449791"
        y="103.5174"
        id="text2005-0"><tspan
-         sodipodi:role="line"
          id="tspan2003-50"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.264583"
          x="72.449791"
@@ -103,7 +68,6 @@
        x="110.78146"
        y="92.556404"
        id="text2103"><tspan
-         sodipodi:role="line"
          id="tspan2101"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.223242"
          x="110.78146"
@@ -114,7 +78,6 @@
        x="31.999626"
        y="50.850876"
        id="text2103-3"><tspan
-         sodipodi:role="line"
          id="tspan2101-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.202908"
          x="31.999626"
@@ -122,10 +85,6 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.592112,56.57769 c 9.038028,0.289589 11.781212,-3.526155 13.675476,-7.895543"
-       id="path2105"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="path2105.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       id="path2105" />
   </g>
 </svg>
