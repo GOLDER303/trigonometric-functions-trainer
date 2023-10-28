@@ -1,0 +1,38 @@
+{
+    "1": {
+        "answers": {
+            "sin": {
+                "top": "a",
+                "bottom": "c"
+            },
+            "cos": {
+                "top": "b",
+                "bottom": "c"
+            }
+        }
+    },
+    "2": {
+        "answers": {
+            "sin": {
+                "top": "b",
+                "bottom": "a"
+            },
+            "cos": {
+                "top": "c",
+                "bottom": "a"
+            }
+        }
+    },
+    "3": {
+        "answers": {
+            "sin": {
+                "top": "c",
+                "bottom": "b"
+            },
+            "cos": {
+                "top": "b",
+                "bottom": "b"
+            }
+        }
+    }
+}
