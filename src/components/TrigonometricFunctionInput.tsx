@@ -45,6 +45,7 @@ const TrigonometricFunctionInput: React.FC<TrigonometricFunctionInputProps> = ({
             <span className="flex pt-1 flex-col">
                 <input
                     type="text"
+                    id={`${functionName}_top`}
                     placeholder="?"
                     maxLength={1}
                     value={topValue}
@@ -53,6 +54,7 @@ const TrigonometricFunctionInput: React.FC<TrigonometricFunctionInputProps> = ({
                 />
                 <input
                     type="text"
+                    id={`${functionName}_bottom`}
                     placeholder="?"
                     maxLength={1}
                     value={bottomValue}
