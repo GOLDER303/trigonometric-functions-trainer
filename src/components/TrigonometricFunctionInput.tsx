@@ -32,7 +32,7 @@ const TrigonometricFunctionInput: React.FC<TrigonometricFunctionInputProps> = ({
 
         if (!/^[abc]$/.test(inputValue)) {
             event.target.value = ""
-            onTopValueChange("")
+            onBottomValueChange("")
             return
         }
 
