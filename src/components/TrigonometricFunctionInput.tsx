@@ -50,7 +50,7 @@ const TrigonometricFunctionInput: React.FC<TrigonometricFunctionInputProps> = ({
                     maxLength={1}
                     value={topValue}
                     onChange={onTopInputChange}
-                    className="w-4 text-lg text-center border-b border-black"
+                    className="w-4 text-center text-white bg-transparent border-b border-white placeholder-neutral-200"
                 />
                 <input
                     type="text"
@@ -59,7 +59,7 @@ const TrigonometricFunctionInput: React.FC<TrigonometricFunctionInputProps> = ({
                     maxLength={1}
                     value={bottomValue}
                     onChange={onBottomInputChange}
-                    className="w-4 text-lg text-center border-t border-black"
+                    className="w-4 text-center text-white bg-transparent border-t border-white placeholder-neutral-200"
                 />
             </span>
         </div>

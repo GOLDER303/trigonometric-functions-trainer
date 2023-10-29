@@ -63,35 +63,61 @@ function App() {
     }
 
     return (
-        <>
-            <h1 className="text-3xl">Hello World!</h1>
-            <img
-                src={triangleImages[imageId - 1]}
-                alt="triangle"
-            />
+        <div className="flex flex-col h-screen bg-gradient-to-br from-blue-400 to-purple-500 text-white">
+            <header className="relative py-4 text-white text-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-blue-400 opacity-40"></div>
+                <h1 className="relative text-3xl font-semibold">Trigonometric Function Trainer</h1>
+            </header>
 
-            <div className="flex gap-10">
-                <TrigonometricFunctionInput
-                    functionName="sin &alpha;"
-                    topValue={sinTopValue}
-                    onTopValueChange={setSinTopValue}
-                    bottomValue={sinBottomValue}
-                    onBottomValueChange={setSinBottomValue}
-                />
+            <main className="flex-1 flex flex-col items-center justify-center">
+                <div className="mb-10 px-5 lg:px-0">
+                    <img
+                        src={triangleImages[imageId - 1]}
+                        alt="triangle"
+                        className="stroke-white"
+                    />
+                </div>
 
-                <TrigonometricFunctionInput
-                    functionName="cos &alpha;"
-                    topValue={cosTopValue}
-                    onTopValueChange={setCosTopValue}
-                    bottomValue={cosBottomValue}
-                    onBottomValueChange={setCosBottomValue}
-                />
-            </div>
+                <div className="flex gap-10 text-2xl lg:my-10">
+                    <TrigonometricFunctionInput
+                        functionName="sin &alpha;"
+                        topValue={sinTopValue}
+                        onTopValueChange={setSinTopValue}
+                        bottomValue={sinBottomValue}
+                        onBottomValueChange={setSinBottomValue}
+                    />
 
-            <button onClick={checkAnswers}>Check Answers</button>
+                    <TrigonometricFunctionInput
+                        functionName="cos &alpha;"
+                        topValue={cosTopValue}
+                        onTopValueChange={setCosTopValue}
+                        bottomValue={cosBottomValue}
+                        onBottomValueChange={setCosBottomValue}
+                    />
+                </div>
 
-            {revealAnswer && (success ? <div>Success!</div> : <div>Failure</div>)}
-        </>
+                <button
+                    onClick={checkAnswers}
+                    className="px-6 py-3 mt-6 text-lg text-white bg-pink-600 hover:bg-pink-700 rounded-md"
+                >
+                    Check Answers
+                </button>
+
+                <div className="mt-4 text-lg">
+                    {revealAnswer &&
+                        (success ? (
+                            <div className="py-2 px-8 bg-green-500 rounded-lg">Success!</div>
+                        ) : (
+                            <div className="py-2 px-8 bg-red-500 rounded-lg">Failure</div>
+                        ))}
+                </div>
+            </main>
+
+            <footer className="relative py-2 text-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-blue-400 opacity-40"></div>
+                <p className="relative text-sm text-white">&copy; 2023 Trigonometric Function Trainer</p>
+            </footer>
+        </div>
     )
 }
 
