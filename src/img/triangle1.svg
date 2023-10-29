@@ -16,25 +16,25 @@
      transform="translate(-24.334906,-40.000003)">
     <path
        id="rect391"
-       style="fill:none;stroke:#000000;stop-color:#000000"
+       style="fill:none;stroke:#ffffff;stop-color:#000000"
        d="m 30.5,40.833618 101.57998,54.21536 H 30.5 Z" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.568617,76.755624 c 13.180534,0.8916 17.687225,8.336565 18.437219,18.437217"
        id="path613" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 108.74409,82.936164 c -2.01311,2.775293 -3.53261,4.871134 -2.4221,11.692913"
        id="path615" />
     <circle
-       style="fill:#000000;stroke:#000000;stroke-width:0.681062;stroke-dasharray:none;stop-color:#000000"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.681062;stroke-dasharray:none;stop-color:#000000"
        id="path1223"
        cx="37.425098"
        cy="88.56604"
        r="0.66837347" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="23.859486"
        y="69.924828"
        id="text2005"><tspan
@@ -44,7 +44,7 @@
          y="69.924828">a</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="77.126953"
        y="63.761478"
        id="text2005-2"><tspan
@@ -54,7 +54,7 @@
          y="63.761478">c</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="72.449791"
        y="103.5174"
        id="text2005-0"><tspan
@@ -64,7 +64,7 @@
          y="103.5174">b</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.92967px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.223242"
+       style="font-style:normal;font-weight:normal;font-size:8.92967px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.223242"
        x="110.78146"
        y="92.556404"
        id="text2103"><tspan
@@ -74,7 +74,7 @@
          y="92.556404">α</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.11631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.202908"
+       style="font-style:normal;font-weight:normal;font-size:8.11631px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.202908"
        x="31.999626"
        y="50.850876"
        id="text2103-3"><tspan
@@ -83,7 +83,7 @@
          x="31.999626"
          y="50.850876">β</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 30.592112,56.57769 c 9.038028,0.289589 11.781212,-3.526155 13.675476,-7.895543"
        id="path2105" />
   </g>
