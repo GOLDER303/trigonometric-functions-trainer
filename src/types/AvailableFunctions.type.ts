@@ -1,1 +1,1 @@
-export type AvailableFunctions = "sin" | "cos"
+export type AvailableFunctions = "sin" | "cos" | "tg" | "ctg"

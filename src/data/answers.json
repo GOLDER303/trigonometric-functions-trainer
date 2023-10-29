@@ -8,6 +8,14 @@
             "cos": {
                 "top": "b",
                 "bottom": "c"
+            },
+            "tg": {
+                "top": "a",
+                "bottom": "b"
+            },
+            "ctg": {
+                "top": "b",
+                "bottom": "a"
             }
         }
     },
@@ -20,6 +28,14 @@
             "cos": {
                 "top": "c",
                 "bottom": "a"
+            },
+            "tg": {
+                "top": "b",
+                "bottom": "c"
+            },
+            "ctg": {
+                "top": "c",
+                "bottom": "b"
             }
         }
     },
@@ -32,6 +48,14 @@
             "cos": {
                 "top": "a",
                 "bottom": "b"
+            },
+            "tg": {
+                "top": "c",
+                "bottom": "a"
+            },
+            "ctg": {
+                "top": "a",
+                "bottom": "c"
             }
         }
     }

@@ -15,6 +15,12 @@ function App() {
     const [cosTopValue, setCosTopValue] = useState("")
     const [cosBottomValue, setCosBottomValue] = useState("")
 
+    const [tgTopValue, setTgTopValue] = useState("")
+    const [tgBottomValue, setTgBottomValue] = useState("")
+
+    const [ctgTopValue, setCtgTopValue] = useState("")
+    const [ctgBottomValue, setCtgBottomValue] = useState("")
+
     const [imageId, setImageId] = useState(1)
 
     const [revealAnswer, setRevealAnswer] = useState(false)
@@ -41,6 +47,10 @@ function App() {
         setSinBottomValue("")
         setCosTopValue("")
         setCosBottomValue("")
+        setTgTopValue("")
+        setTgBottomValue("")
+        setCtgTopValue("")
+        setCtgBottomValue("")
     }
 
     useEffect(() => {
@@ -52,7 +62,11 @@ function App() {
             sinTopValue === answers[imageId].answers.sin.top &&
             sinBottomValue === answers[imageId].answers.sin.bottom &&
             cosTopValue === answers[imageId].answers.cos.top &&
-            cosBottomValue === answers[imageId].answers.cos.bottom
+            cosBottomValue === answers[imageId].answers.cos.bottom &&
+            tgTopValue === answers[imageId].answers.tg.top &&
+            tgBottomValue === answers[imageId].answers.tg.bottom &&
+            ctgTopValue === answers[imageId].answers.ctg.top &&
+            ctgBottomValue === answers[imageId].answers.ctg.bottom
         ) {
             setSuccess(true)
             setTimeout(() => {
@@ -101,6 +115,22 @@ function App() {
                         onTopValueChange={setCosTopValue}
                         bottomValue={cosBottomValue}
                         onBottomValueChange={setCosBottomValue}
+                    />
+
+                    <TrigonometricFunctionInput
+                        functionName="tg &alpha;"
+                        topValue={tgTopValue}
+                        onTopValueChange={setTgTopValue}
+                        bottomValue={tgBottomValue}
+                        onBottomValueChange={setTgBottomValue}
+                    />
+
+                    <TrigonometricFunctionInput
+                        functionName="ctg &alpha;"
+                        topValue={ctgTopValue}
+                        onTopValueChange={setCtgTopValue}
+                        bottomValue={ctgBottomValue}
+                        onBottomValueChange={setCtgBottomValue}
                     />
                 </div>
 
