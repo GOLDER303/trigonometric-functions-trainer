@@ -17,6 +17,9 @@ function App() {
 
     const [imageId, setImageId] = useState(1)
 
+    const [revealAnswer, setRevealAnswer] = useState(false)
+    const [success, setSuccess] = useState(false)
+
     const triangleImages = [triangle1, triangle2, triangle3]
 
     useEffect(() => {
@@ -47,15 +50,16 @@ function App() {
             cosTopValue === answers[imageId].answers.cos.top &&
             cosBottomValue === answers[imageId].answers.cos.bottom
         ) {
-            //TODO:
-            console.log("success")
+            setSuccess(true)
             setTimeout(() => {
+                setRevealAnswer(false)
                 generateRandomImageId()
             }, 3000)
         } else {
-            //TODO:
-            console.log("failure")
+            setSuccess(false)
         }
+
+        setRevealAnswer(true)
     }
 
     return (
@@ -85,6 +89,8 @@ function App() {
             </div>
 
             <button onClick={checkAnswers}>Check Answers</button>
+
+            {revealAnswer && (success ? <div>Success!</div> : <div>Failure</div>)}
         </>
     )
 }
