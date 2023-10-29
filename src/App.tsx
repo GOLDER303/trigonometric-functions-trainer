@@ -36,11 +36,15 @@ function App() {
         setImageId(randomImageId)
     }
 
-    useEffect(() => {
+    const resetAnswers = () => {
         setSinTopValue("")
         setSinBottomValue("")
         setCosTopValue("")
         setCosBottomValue("")
+    }
+
+    useEffect(() => {
+        resetAnswers()
     }, [imageId])
 
     const checkAnswers = () => {
@@ -57,6 +61,10 @@ function App() {
             }, 3000)
         } else {
             setSuccess(false)
+            setTimeout(() => {
+                setRevealAnswer(false)
+                resetAnswers()
+            }, 3000)
         }
 
         setRevealAnswer(true)
@@ -108,7 +116,7 @@ function App() {
                         (success ? (
                             <div className="py-2 px-8 bg-green-500 rounded-lg">Success!</div>
                         ) : (
-                            <div className="py-2 px-8 bg-red-500 rounded-lg">Failure</div>
+                            <div className="py-2 px-8 bg-red-500 rounded-lg">Wrong, try again!</div>
                         ))}
                 </div>
             </main>
