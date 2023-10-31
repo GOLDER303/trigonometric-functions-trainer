@@ -12,6 +12,9 @@ const TriangleComponent: React.FC<TriangleComponentProps> = ({ flipX, flipY, rot
         ["a", "b", "c"],
         ["b", "c", "a"],
         ["c", "a", "b"],
+        ["b", "a", "c"],
+        ["c", "b", "a"],
+        ["a", "c", "b"],
     ]
 
     const getLetter = (letterPlace: 1 | 2 | 3): string => {

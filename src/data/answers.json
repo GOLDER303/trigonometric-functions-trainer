@@ -58,5 +58,65 @@
                 "bottom": "c"
             }
         }
+    },
+    "3": {
+        "answers": {
+            "sin": {
+                "top": "b",
+                "bottom": "c"
+            },
+            "cos": {
+                "top": "a",
+                "bottom": "c"
+            },
+            "tg": {
+                "top": "b",
+                "bottom": "a"
+            },
+            "ctg": {
+                "top": "a",
+                "bottom": "b"
+            }
+        }
+    },
+    "4": {
+        "answers": {
+            "sin": {
+                "top": "c",
+                "bottom": "a"
+            },
+            "cos": {
+                "top": "b",
+                "bottom": "a"
+            },
+            "tg": {
+                "top": "c",
+                "bottom": "b"
+            },
+            "ctg": {
+                "top": "b",
+                "bottom": "c"
+            }
+        }
+    },
+    "5": {
+        "answers": {
+            "sin": {
+                "top": "a",
+                "bottom": "b"
+            },
+            "cos": {
+                "top": "c",
+                "bottom": "b"
+            },
+            "tg": {
+                "top": "a",
+                "bottom": "c"
+            },
+            "ctg": {
+                "top": "c",
+                "bottom": "a"
+            }
+        }
     }
 }
