@@ -1,5 +1,5 @@
 {
-    "1": {
+    "0": {
         "answers": {
             "sin": {
                 "top": "a",
@@ -16,30 +16,30 @@
             "ctg": {
                 "top": "b",
                 "bottom": "a"
+            }
+        }
+    },
+    "1": {
+        "answers": {
+            "sin": {
+                "top": "b",
+                "bottom": "a"
+            },
+            "cos": {
+                "top": "c",
+                "bottom": "a"
+            },
+            "tg": {
+                "top": "b",
+                "bottom": "c"
+            },
+            "ctg": {
+                "top": "c",
+                "bottom": "b"
             }
         }
     },
     "2": {
-        "answers": {
-            "sin": {
-                "top": "b",
-                "bottom": "a"
-            },
-            "cos": {
-                "top": "c",
-                "bottom": "a"
-            },
-            "tg": {
-                "top": "b",
-                "bottom": "c"
-            },
-            "ctg": {
-                "top": "c",
-                "bottom": "b"
-            }
-        }
-    },
-    "3": {
         "answers": {
             "sin": {
                 "top": "c",
