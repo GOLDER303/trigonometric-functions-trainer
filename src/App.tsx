@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react"
+import TriangleComponent from "./components/Triangle"
 import TrigonometricFunctionInput from "./components/TrigonometricFunctionInput"
 import answersData from "./data/answers.json"
-import triangle1 from "./img/triangle1.svg"
-import triangle2 from "./img/triangle2.svg"
-import triangle3 from "./img/triangle3.svg"
 import { Answers } from "./types/Answers.type"
 
 function App() {
@@ -22,24 +20,30 @@ function App() {
     const [ctgBottomValue, setCtgBottomValue] = useState("")
 
     const [imageId, setImageId] = useState(1)
+    const [imageRotation, setImageRotation] = useState(1)
+    const [imageXFlip, setImageXFlip] = useState(false)
+    const [imageYFlip, setImageYFlip] = useState(false)
 
     const [revealAnswer, setRevealAnswer] = useState(false)
     const [success, setSuccess] = useState(false)
 
-    const triangleImages = [triangle1, triangle2, triangle3]
-
     useEffect(() => {
-        generateRandomImageId()
+        randomizeImage()
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-    const generateRandomImageId = () => {
+    const randomizeImage = () => {
         let randomImageId
+
         do {
-            randomImageId = Math.floor(Math.random() * 3) + 1
+            randomImageId = Math.floor(Math.random() * 6)
         } while (randomImageId === imageId)
 
         setImageId(randomImageId)
+
+        setImageRotation(Math.floor(Math.random() * 361))
+        setImageXFlip(Math.random() < 0.5)
+        setImageYFlip(Math.random() < 0.5)
     }
 
     const resetAnswers = () => {
@@ -71,7 +75,7 @@ function App() {
             setSuccess(true)
             setTimeout(() => {
                 setRevealAnswer(false)
-                generateRandomImageId()
+                randomizeImage()
             }, 3000)
         } else {
             setSuccess(false)
@@ -93,10 +97,11 @@ function App() {
 
             <main className="flex-1 flex flex-col items-center justify-center">
                 <div className="mb-10 px-5 lg:px-0">
-                    <img
-                        src={triangleImages[imageId - 1]}
-                        alt="triangle"
-                        className="stroke-white"
+                    <TriangleComponent
+                        flipY={imageXFlip}
+                        flipX={imageYFlip}
+                        rotation={imageRotation}
+                        lettersVariation={imageId}
                     />
                 </div>
 
