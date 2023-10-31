@@ -142,12 +142,13 @@ function App() {
                 </button>
 
                 <div className="mt-4 text-lg">
-                    {revealAnswer &&
-                        (success ? (
-                            <div className="py-2 px-8 bg-green-500 rounded-lg">Success!</div>
-                        ) : (
-                            <div className="py-2 px-8 bg-red-500 rounded-lg">Wrong, try again!</div>
-                        ))}
+                    <div
+                        className={`py-2 px-8 rounded-lg ${
+                            revealAnswer ? (success ? "bg-green-500" : "bg-red-500") : "opacity-0"
+                        }`}
+                    >
+                        {success ? "Success!" : "Wrong, try again!"}
+                    </div>
                 </div>
             </main>
 
