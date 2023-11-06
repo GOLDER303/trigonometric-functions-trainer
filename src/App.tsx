@@ -92,7 +92,7 @@ function App() {
         <div className="flex flex-col h-screen bg-gradient-to-br from-blue-400 to-purple-500 text-white">
             <header className="relative py-4 text-white text-center">
                 <div className="absolute top-0 left-0 w-full h-full bg-blue-400 opacity-40"></div>
-                <h1 className="relative text-3xl font-semibold">Trigonometric Function Trainer</h1>
+                <h1 className="relative text-3xl font-semibold">Trigonometric Functions Trainer</h1>
             </header>
 
             <main className="flex-1 flex flex-col items-center justify-center">
@@ -159,7 +159,7 @@ function App() {
 
             <footer className="relative py-2 text-center">
                 <div className="absolute top-0 left-0 w-full h-full bg-blue-400 opacity-40"></div>
-                <p className="relative text-sm text-white">&copy; 2023 Trigonometric Function Trainer</p>
+                <p className="relative text-sm text-white">&copy; 2023 Trigonometric Functions Trainer</p>
             </footer>
         </div>
     )
